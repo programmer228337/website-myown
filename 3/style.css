@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+*, 
+*:before, *:after{ box-sizing: border-box;}
+
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+height: 120px;
+text-align: center;
+background-color: #daac00;
+color: black;
+font-size: 30px;
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.head-btn {
+    font-family: 'Montserrat', sans-serif; 
+    margin-left: 50px;
+transition: .3s;
+}
+
+.head-btn:hover {
+    color:rgb(255, 255, 255);
+}
+
+.head-nav {
+margin-right: 100px;
+display: block;
+width: 550px;
+
+}
+
+.head-img {
+   position: relative;
+   margin-left: 100px;
+   
+}
+
+
+
+/***********HEADER END**************/
+
+.img-des {
+    
+    width: 100%;
+    background-color: #fcc302;
+    height: 780px;
+}
+
+.editor-img {
+    position: relative;
+    left: 1050px;
+    border-radius: 45px;
+    top: 124.5px;
+    
+}
+
+.des-txt1 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif; 
+    font-style: Black;
+    font-size: 66px;
+    line-height: 66px;
+    width: 900px;
+   bottom: 430px;
+   left: 100px;
+   letter-spacing: 0.1cm;
+}
+
+.des-txt2 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif; 
+    font-style: Black;
+    font-size: 40px;
+    width: 950px;
+    left: 100px;
+    bottom: 230px;
+    letter-spacing: 0.3cm;
+}
+
+
+
+
+
+/***********MAIN END*****************************/
+
+
+
+.logo-anim {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    background-color: #fcfaf4;
+    color: black;
+}
+
+.logo-txt {
+    position: absolute;
+    font-family: 'FuturaDemiCTT',;
+    font-weight: 770;
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 365px;
+    margin-right: 1100px;
+}
+
+.logo-vid {
+    position: absolute;
+    margin-top: 111.5px;
+    margin-left: 400px;
+    border-radius: 17px;
+}
+
+.logo-txt-p {
+position: absolute;
+font-family: 'FuturaDemiCTT';
+margin-right: 1100px;
+font-weight: 400;
+margin-top: 420px;
+}
+
+/**************FINAL BUTTONS******************/
+
+
+
+footer {
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #daac00;
+    
+}
+
+.exam {
+font-family: 'FuturaDemiCTT';
+font-size: 40px;
+border: 0;
+border-radius: 35px;
+height: px; 
+background-color: #00bec9;
+margin-left: 150px;
+margin-top: 0px;
+}
+
+.examples-btns {
+    width: 100%;
+    max-width: 1005px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

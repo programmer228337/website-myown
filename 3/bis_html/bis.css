@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+*, 
+*:before, *:after{ box-sizing: border-box;}
+
+.bis-anim {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    background-color: #fcfaf4;
+    color: black;
+}
+
+.bis-txt {
+    position: absolute;
+    font-family: 'FuturaDemiCTT',;
+    font-weight: 770;
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 365px;
+    margin-right: 1100px;
+    opacity:0; 
+    transition: 1s; 
+    animation: show 3s 1;
+    animation-fill-mode: forwards; 
+    animation-delay: 1s; 
+}
+
+.bis-vid {
+    position: absolute;
+    margin-top: 111.5px;
+    margin-left: 400px;
+    border-radius: 17px;
+    opacity:0; 
+    transition: 1s; 
+    animation: show 3s 1;
+    animation-fill-mode: forwards; 
+    animation-delay: 1s;
+}
+
+.bis-txt-p {
+position: absolute;
+font-family: 'FuturaDemiCTT';
+margin-right: 1100px;
+font-weight: 400;
+margin-top: 420px;
+opacity:0; 
+transition: 1s; 
+animation: show 3s 1;
+animation-fill-mode: forwards; 
+animation-delay: 1s;
+}
+
+@keyframes show{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    }
+
+footer {
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    background-color: #343434;
+    color: #fcfaf4;
+}
+
+.footer-txt {
+    position: absolute;
+    font-family: 'FuturaDemiCTT';
+    font-size: 55px;
+    font-weight: bolder;
+    line-height: 55px;
+    margin-left: 6cm;
+    height: 55px;
+    margin-top: 20px;
+}
+
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    background-color:#f9c927;
+    border: 0;
+    border-radius:9px;
+    cursor: pointer;
+    margin-top: 300px;
+    margin-left: 735px;
+    transition: .2s;
+}
+.footer-btn:hover {
+    background-color: #00bec9;
+    color: black;
+}
+
+.order {
+    text-decoration: none;
+    color: white;
+    font-family: 'FuturaDemiCTT';
+    font-size: 55px;
+    cursor: pointer;
+    transition: .2s;
+}
+.order:hover {
+    color: black;
+}
+
+.insta {
+    position: absolute;
+    background-color: transparent;
+    height: 95px;
+    width: 95px;
+    border: 0px;
+    cursor: pointer;
+    transition: .2s;
+    margin-left: 912.5px;
+    margin-top: 152.5px;
+    background-image: url(/source_vid/source-logo/insta-color.png);
+}
+.insta:hover {
+    background-image: url(/source_vid/source-logo/insta-black.png);
+}
+
+.arrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 935px;
+    margin-top: 90px;
+    background-image: url(/source_vid/source-logo/arrow.png);
+}
